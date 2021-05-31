@@ -4,6 +4,7 @@ div.nav{
     grid-auto-rows: 35px;
     margin: 15px 0px 15px 0;
     font-size: 1.1rem;
+    grid-auto-flow: row;
 }
 
 div.nav div{
@@ -136,7 +137,7 @@ hr{
 }
 div.referee{
     width: 90%;
-    margin: 5% auto 10% auto;
+    margin: 0% auto 10% auto;
 }
 div.reference{
     display: grid;
@@ -192,7 +193,11 @@ div.reference{
     width: 50%;
     height: 400px;
     /* border: 1px solid yellowgreen; */
-    margin: 5% auto;
+    margin: 10% auto;
+}
+
+iframe{
+    width: 100%;
 }
 
 .video h1, .allProjects > h1{
@@ -202,12 +207,11 @@ div.reference{
 
 .allProjects{
     width: 90%;
-    margin: 10% auto;
+    margin: 20% auto 5% auto;
 }
 
 .projects{
     background: #f7f7f7;
-    height: 300px;
     width: 100%;
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
@@ -236,6 +240,7 @@ a:link{
 a:visited{
     color: #81b214;
 }
+
 
 
 
